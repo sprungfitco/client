@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="16px" viewBox="0 0 24 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50 (54983) - http://www.bohemiancoding.com/sketch -->
+    <title>filter_gray</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="10A---Trainer-List" transform="translate(-991.000000, -137.000000)" fill="#9F9F9F" fill-rule="nonzero">
+            <g id="filter-results-button" transform="translate(991.000000, 137.000000)">
+                <path d="M9.3029316,15.9739414 L14.6188925,15.9739414 L14.6188925,13.3159609 L9.3029316,13.3159609 L9.3029316,15.9739414 Z M0,0.0260586319 L0,2.68403909 L23.9218241,2.68403909 L23.9218241,0.0260586319 L0,0.0260586319 Z M3.98697068,9.32899023 L19.9348534,9.32899023 L19.9348534,6.67100977 L3.98697068,6.67100977 L3.98697068,9.32899023 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

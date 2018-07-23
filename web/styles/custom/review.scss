@@ -1,0 +1,193 @@
+.modal-dialog {
+  top: 20% !important;
+}
+
+.myJumbotron {
+  min-height: 70vh;
+  width: 50%;
+  background-color: transparent;
+  border: 2px solid #666;
+  box-shadow: 3px 3px 5px 6px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+}
+
+.paddedContainer {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.creditCardContainer {
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  min-height: 30px;
+  padding: 10px;
+}
+
+.creditCardTitle {
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.deleteCreditCardButton {
+  vertical-align: middle;
+}
+
+.add-cc {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.rating:not(:checked) > input,
+.rating1:not(:checked) > input,
+.rating2:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+  clip: rect(0, 0, 0, 0);
+}
+
+.rating:not(:checked) > label,
+.rating1:not(:checked) > label,
+.rating2:not(:checked) > label {
+  float: right;
+  width: 2.5rem;
+  padding: 0 0.1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 200%;
+  line-height: 1.2;
+  color: #ddd;
+  text-shadow: 1px 1px #bbb, 2px 2px #666, 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
+}
+
+.rating:not(:checked) > label:before,
+.rating1:not(:checked) > label:before,
+.rating2:not(:checked) > label:before {
+  content: '★ ';
+}
+
+.rating > input:checked ~ label,
+.rating1 > input:checked ~ label,
+.rating2 > input:checked ~ label {
+  color: #00d69d;
+  text-shadow: 1px 1px #00d69d, 2px 2px #00d69d,
+    0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+  color: #00d69d;
+  text-shadow: 1px 1px #00d69d, 2px 2px #00d69d,
+    0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+  color: #00d69d;
+  text-shadow: 1px 1px #00d69d, 2px 2px #00d69d,
+    0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
+}
+
+.rating1:not(:checked) > label:hover,
+.rating1:not(:checked) > label:hover ~ label {
+  color: #00d69d;
+  text-shadow: 1px 1px #00d69d, 2px 2px #00d69d,
+    0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
+}
+
+.rating1 > input:checked + label:hover,
+.rating1 > input:checked + label:hover ~ label,
+.rating1 > input:checked ~ label:hover,
+.rating1 > input:checked ~ label:hover ~ label,
+.rating1 > label:hover ~ input:checked ~ label {
+  color: #00d69d;
+  text-shadow: 1px 1px #00d69d, 2px 2px #00d69d,
+    0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
+}
+
+.rating2:not(:checked) > label:hover,
+.rating2:not(:checked) > label:hover ~ label {
+  color: #00d69d;
+  text-shadow: 1px 1px #00d69d, 2px 2px #00d69d,
+    0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
+}
+
+.rating2 > input:checked + label:hover,
+.rating2 > input:checked + label:hover ~ label,
+.rating2 > input:checked ~ label:hover,
+.rating2 > input:checked ~ label:hover ~ label,
+.rating2 > label:hover ~ input:checked ~ label {
+  color: #00d69d;
+  text-shadow: 1px 1px #00d69d, 2px 2px #00d69d,
+    0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
+}
+
+.rating > label:active,
+.rating1 > label:active,
+.rating2 > label:active {
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
+.textbox__title {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  padding: 0;
+  margin-bottom: 0.5rem;
+  white-space: normal;
+  text-align: center;
+  font-size: 16px;
+  color: #000000;
+  letter-spacing: -0.51px;
+  font-weight: bold;
+}
+
+.big-submit-btn {
+  width: 90%;
+  height: 40px;
+  background: #31cf9e !important;
+  border-radius: 3px;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+.big-submit-btn:hover {
+  color: #fff;
+  background: #32b089 !important;
+}
+
+.textarea__review {
+  width: 444px !important;
+}
+
+.header__review {
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  background: #31cf9e !important;
+}
+
+.review__text {
+  font-size: 26px;
+  color: white;
+  letter-spacing: -0.51px;
+  font-weight: bold;
+  flex-basis: 55%;
+}
+
+.close__text {
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+  flex-basis: 39%;
+  margin-left: 2%;
+}

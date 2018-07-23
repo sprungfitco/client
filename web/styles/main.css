@@ -1,0 +1,89 @@
+/*
+Error: Invalid US-ASCII character "\xE2"
+        on line 61 of custom/review.scss
+        from line 21 of custom/custom.scss
+        from line 1 of main.scss
+
+56: }
+57: 
+58: .rating:not(:checked) > label:before,
+59: .rating1:not(:checked) > label:before,
+60: .rating2:not(:checked) > label:before {
+61:   content: '★ ';
+62: }
+63: 
+64: .rating > input:checked ~ label,
+65: .rating1 > input:checked ~ label,
+66: .rating2 > input:checked ~ label {
+
+Backtrace:
+custom/review.scss:61
+custom/custom.scss:21
+main.scss:1
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/util.rb:1043:in `rescue in block in find_encoding_error'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/util.rb:1040:in `block in find_encoding_error'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/util.rb:1039:in `each'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/util.rb:1039:in `each_with_index'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/util.rb:1039:in `find_encoding_error'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/util.rb:767:in `check_sass_encoding'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/engine.rb:444:in `check_encoding!'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/engine.rb:400:in `_to_tree'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/engine.rb:321:in `to_tree'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/stack.rb:88:in `block in with_import'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/stack.rb:135:in `with_frame'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/stack.rb:88:in `with_import'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/stack.rb:79:in `block in with_base'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/stack.rb:135:in `with_frame'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/stack.rb:79:in `with_base'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:329:in `map'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/stack.rb:88:in `block in with_import'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/stack.rb:135:in `with_frame'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/stack.rb:88:in `with_import'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/stack.rb:79:in `block in with_base'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/stack.rb:135:in `with_frame'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/stack.rb:79:in `with_base'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/plugin.rb:82:in `update_stylesheets'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/exec/base.rb:52:in `parse'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/lib/sass/exec/base.rb:19:in `parse!'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/gems/sass-3.5.6/bin/scss:13:in `<top (required)>'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/bin/scss:22:in `load'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/bin/scss:22:in `<main>'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/bin/ruby_executable_hooks:15:in `eval'
+/Users/vincentvillalta/.rvm/gems/ruby-2.3.4/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid US-ASCII character \"\xE2\"\A         on line 61 of custom/review.scss\A         from line 21 of custom/custom.scss\A         from line 1 of main.scss\A \A 56: }\A 57: \A 58: .rating:not(:checked) > label:before,\A 59: .rating1:not(:checked) > label:before,\A 60: .rating2:not(:checked) > label:before {\A 61:   content: '★ ';\A 62: }\A 63: \A 64: .rating > input:checked ~ label,\A 65: .rating1 > input:checked ~ label,\A 66: .rating2 > input:checked ~ label {"; }

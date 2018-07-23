@@ -1,0 +1,27 @@
+.admin_dashboard_custom {
+	
+	.left_nav_bar {
+		margin: 12px;
+
+		.left_nav_bar_item {
+			margin: 12px;
+			font-size: 20px;
+			
+			&:hover {
+				background-color: rgb(244, 245, 247);
+			}
+			>span {
+				margin-left: 10px;
+				display: inline;
+			}
+		}
+	}
+
+	.Resizer {
+		width: 1px;
+		background-color: gray;
+	}
+}
+
+
+

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500');
+
+.trainer__form {
+  height: 100%;
+  width: 90%;
+  margin: 10px auto;
+}
+
+.trainer__header {
+  width: 100%;
+  display: inline-block;
+}
+
+
+.trainer__container {
+  display: grid;
+  grid-gap: 20px;
+  //   border: 5px solid black;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  //   grid-template-rows: 350px;
+}
+
+.trainer__item {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 5px;
+  //   border: 5px solid red;
+  border-radius: 3px;
+}
+
+.trainer__image img {
+  border-radius: 50%;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.trainer__name__ratings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.trainer__ratings {
+  display: flex;
+}
+
+.trainer__ratings > img {
+  margin-left: 4px;
+  width: 26px;
+  height: 26px;
+}
+
+.trainer__name:hover {
+  cursor: pointer;
+  background: #dcdcdc;
+}
+
+.trainer__expertise {
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.trainer__primary,
+.trainer__secondary {
+  display: block;
+  padding: 2px 11px;
+  color: white;
+  margin-right: 10%;
+  background-color: $header-bg--color;
+  font-weight: bolder;
+
+  &:hover {
+    cursor: pointer;
+    background: #dcdcdc;
+  }
+}
+
+.trainer__classes {
+  font-family: 'Rubik', sans-serif;
+  font-size: 1rem;
+  text-decoration: underline;
+
+  &:hover {
+    cursor: pointer;
+    background: #dcdcdc;
+  }
+}
+
+.filter_image{
+  display: inline-block;
+}
+
+.filter-icon{
+  width: 24px;
+  height: 16px;
+  float: right;
+  position: relative;
+}
+
+.filter-dropdown{
+  background: #FFFFFF;
+  border: 1px solid rgba(151,151,151,0.20);
+  box-shadow: 0 5px 12px 0 rgba(0,0,0,0.10);
+  border-radius: 3px;
+  padding: 16px;
+  width: 245px;
+  height: auto;
+  right: 0;
+  position: absolute;
+  text-align: left;
+  overflow: hidden;
+  z-index: 99;
+}

@@ -1,0 +1,39 @@
+.post_class_custom {
+	
+	.post_class_header {
+			font-size: 20px;
+		}
+
+	.post_class_fields {
+			font-size: 12px;
+			margin-top: 20px;
+			width: 600px;
+		}
+
+		.post_class_item {
+			margin: 10px;
+			align-items: center;
+			display: flex;
+			width: 500px;
+			
+			>span {
+				margin: 12px;
+				display: inline-block;
+				width: 90px;
+				text-align: right;
+				
+			}
+
+			.post_class_input {
+				float: right;
+				margin: 12px;
+				flex: 1;
+			}
+
+		}
+	
+	.postclass_button {
+		margin: 0px 50%;
+	}
+
+}

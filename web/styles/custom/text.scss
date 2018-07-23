@@ -1,0 +1,47 @@
+.text--capitalize {
+  text-transform: capitalize;
+}
+
+.text--blue {
+  color: $blue;
+}
+
+.text--success {
+  color: $green;
+}
+
+.text--warning {
+  color: $yellow;
+}
+
+.text--error {
+  color: $red;
+}
+
+.text--gray {
+  color: $gray3;
+}
+
+.text--orange--warning {
+  color: $orange;
+}
+
+.text--right {
+  text-align: right;
+}
+
+.text--center {
+  text-align: center;
+}
+
+.text--nowrap {
+  white-space: nowrap;
+}
+
+.text--muted {
+  color: #999;
+}
+
+.float--left {
+  float: left;
+}

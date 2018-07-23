@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500');
+
+.card__container {
+  display: flex;
+  overflow-x: auto;
+}
+
+.card__container::-webkit-scrollbar {
+  width: 120px;
+  height: 40px;
+}
+
+.card__container::-webkit-scrollbar-button:end:decrement {
+  display: block;
+  width: 60px;
+  height: 18px;
+  background: url(../public/arrow-left.jpg) no-repeat center center;
+  background-size: contain;
+}
+
+.card__container::-webkit-scrollbar-button:end:increment {
+  display: block;
+  width: 60px;
+  height: 18px;
+  background: url(../public/arrow-right.jpg) no-repeat center center;
+  background-size: contain;
+}
+
+.card {
+  padding: 2%;
+  flex: 0 0 27%;
+
+  background-color: #fff;
+  min-height: 520px;
+  border: none !important;
+}
+
+.card__h2 {
+  font-weight: bold;
+  font-size: 22px;
+  margin: 1.5%;
+}
+
+//designer CSS
+.class-card-container {
+  font-family: 'Roboto', sans-serif;
+
+  background: #ffffff;
+  border: 1px solid rgba(151, 151, 151, 0.18);
+  border-radius: 3px;
+  padding: 16px;
+  overflow: hidden;
+}
+.class-card-user-pic {
+  width: 100%;
+  height: 158px;
+  background: gray;
+  border-radius: 3px;
+  float: left;
+}
+
+.class-card-user-pic img {
+  width: 100%;
+  height: 158px;
+  border-radius: 3px;
+  float: left;
+  object-fit: cover;
+}
+
+.width-100-p {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+.tag-green-line {
+  border: 1px solid #31cf9e !important;
+  border-radius: 2px !important;
+  font-size: 10px !important;
+  color: #31cf9e;
+  background: #fff;
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
+  padding-right: 9px !important;
+  padding-left: 9px !important;
+}
+
+.tag-green-line:hover {
+  background: #31cf9e;
+  color: #fff;
+}
+
+.tag-gray-line {
+  border: 1px solid rgba(93, 93, 93, 0.3) !important;
+  border-radius: 2px !important;
+  font-size: 10px !important;
+  color: rgba(93, 93, 93, 0.73);
+
+  background: #fff;
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
+  padding-right: 9px !important;
+  padding-left: 9px !important;
+}
+
+.tag-gray-line:hover {
+  background: rgba(93, 93, 93, 0.73);
+  color: #000;
+}
+
+.class-card-user-pic-small {
+  width: 32px;
+  height: 32px;
+  border-radius: 100px;
+  background: gray;
+}
+.class-card-user-pic-name {
+  font-size: 14px;
+  color: #000000;
+  letter-spacing: -0.29px;
+  padding-left: 10px;
+  padding-top: 7px;
+}
+
+.big-green-btn {
+  width: 100%;
+  height: 40px;
+  background: #31cf9e;
+  border-radius: 3px;
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+.big-green-btn:hover {
+  color: #fff;
+  background: #32b089;
+}
+
+.pay-with-card {
+  .StripeCheckout {
+    margin: 10px auto 0;
+    display: block !important;
+  }
+}
+
+.inside-free-tag {
+  position: absolute;
+  right: 6px;
+  top: 5px;
+  font-size: 12px;
+  color: #494949;
+  letter-spacing: -0.39px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.57);
+  border-radius: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+.class-card-description {
+  font-size: 14px;
+  color: #7c7c7c;
+  letter-spacing: 0;
+  line-height: 19px;
+}
+.class-card-title {
+  font-size: 24px;
+  color: #000000;
+  letter-spacing: -0.29px;
+}
+
+.class-card-title-clickable {
+  font-size: 24px;
+  color: #000000;
+  letter-spacing: -0.29px;
+  text-decoration: underline;
+
+  &:hover {
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+
+
+.class-card-time {
+  font-size: 12px;
+  color: #7c7c7c;
+  letter-spacing: -0.25px;
+}
+
+
+
+.offered_classes_container{
+  width: 200px;
+  height: auto;
+  float: left;
+}
+
+.font-color-green {
+  color: #31cf9e;
+}
+.margin-top-25px {
+  margin-top: 25px;
+}
+.margin-top-14px {
+  margin-top: 14px;
+}
+.margin-top-6px {
+  margin-top: 6px;
+}
+
+.margin-top-M-5px {
+  margin-top: -5px;
+}
+
+@media (max-width: 920px) {
+  .card {
+    flex: 0 0 21%;
+  }
+}
+
+@media (max-width: 600px) {
+  .card {
+    flex: 0 0 46%;
+  }
+}
+
+@media (max-width: 480px) {
+  .card__container {
+    flex-direction: column;
+  }
+}

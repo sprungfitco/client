@@ -1,0 +1,2 @@
+export const COOKIE_TOKEN_KEY = 'COOKIE_TOKEN_KEY';
+export const COOKIE_USER_INFO = 'COOKIE_USER_INFO';

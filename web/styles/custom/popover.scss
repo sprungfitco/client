@@ -1,0 +1,241 @@
+.hx__popover {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  &.header-settings {
+    .ion-ios-arrow-up {
+      display: none;
+    }
+    &.popover--open{
+      .ion-ios-arrow-up {
+        display: inline;
+      }
+
+      .ion-ios-arrow-down {
+        display: none;
+      }
+    }
+  }
+}
+
+.popover__trigger {
+  &:hover {
+    text-decoration: none;
+  }
+}
+.header-settings {
+  .nav-header_config {
+    min-width: 200px;
+  }
+  .popover__panel {
+    min-width: 200px;
+    &.popover--open {
+      display: inline-block;
+    }
+    &.popover--close {
+      display: none;
+    }
+    .menu__header__item {
+      padding: 5px 12px 4px;
+      margin:0px;
+      text-align: left;
+      font-weight: 600;
+      font-size: 12px;
+      color: #999999;
+      text-transform: uppercase;
+      height:30px;
+      > div {
+        width:100%;
+        text-align: left;
+      }
+    }
+    .menu__list__item {
+      padding: 0px 5px 0px 30px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      height: 40px;
+      &:hover {
+        cursor: pointer;
+        background-color: $lightestGray;
+        text-decoration: none;
+      }
+      > div {
+        width:100%;
+        text-align: left;
+        > i {
+          line-height: inherit;
+        }
+      }
+      > a {
+        text-decoration: none;
+        width: 100%;
+        text-align: left;
+        &:hover {
+          color: inherit;
+        }
+      }
+    }
+    .menu__list__item + .menu__list__item:not(.no-border) {
+      border-top: 1px solid $gray--border;
+    }
+  }
+}
+.popover__panel {
+  position: absolute;
+  left: 0;
+  top: 70%;
+  min-width: 180px;
+  margin-top: 10px;
+  background-color: #fff;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  box-shadow: 0 10px 30px rgba(0,0,0,.05);
+  z-index: 10;
+}
+
+.popover__panel:before,
+.popover__panel:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+  border-top: 0;
+  box-sizing: border-box;
+}
+
+.popover__panel:before {
+  top: -7px ;
+  left: 12px ;
+  border-width: 7px;
+  border-bottom: 7px solid #ddd;
+}
+
+.popover__panel:after {
+  top: -6px;
+  left: 12px;
+  border-width: 7px;
+  border-bottom: 7px solid #fff;
+}
+
+@media only screen and (max-width: $screen-xs) {
+  .hx__popover.header-settings.popover--right {
+    .popover__panel {
+      left: 12px;
+      right: 0;
+    }
+
+    .popover__panel:before {
+      left: 12px;
+      right: auto;
+    }
+
+    .popover__panel:after {
+      left: 12px;
+      right: auto;
+    }
+  }
+  .popover--inline {
+    .popover__panel {
+      position: fixed;
+      top: 30px;
+      left: 153px !important;
+    }
+    .popover__panel:before {
+      top: -7px;
+      right: 8px;
+      left: auto;
+    }
+
+    .popover__panel:after {
+      top: -6px;
+      right: 8px;
+      left: auto;
+    }
+  }
+
+}
+
+.popover--right {
+  .popover__panel {
+    left: auto;
+    right: 0;
+    margin: 5px;
+  }
+
+  .popover__panel:before {
+    left: auto;
+    right: 12px;
+  }
+
+  .popover__panel:after {
+    left: auto;
+    right: 12px;
+  }
+}
+
+.popover--inline {
+  display: inline-block;
+  .popover__panel {
+    left: -15px;
+  }
+}
+
+@media screen and (max-width: $screen-xs-max) {
+  .hx__popover-action-select {
+    float: right !important;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  div.dataTables_filter label {
+    float: left;
+    padding-left: 10px;
+  }
+
+  div.dataTables_filter input {
+    float: left;
+    padding-left: 10px;
+  }
+
+  .popover__panel {
+    flex-direction: column;
+  }
+
+  .popover__panel a {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: $screen-sm-max) {
+  .hx__popover-action-select {
+    float: right !important;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  div.dataTables_filter label {
+    float: left;
+    padding-left: 10px;
+  }
+
+  div.dataTables_filter input {
+    float: left;
+    padding-left: 10px;
+  }
+
+  .popover__panel {
+    flex-direction: column;
+  }
+
+  .popover__panel a {
+    text-align: left;
+  }
+}
+
+.padding-20-l {
+  padding-left: 20px !important;
+}

@@ -1,0 +1,24 @@
+.modal-container {
+  position: relative;
+}
+.modal-container .modal, .modal-container .modal-backdrop {
+  position: absolute;
+}
+.modal-backdrop.in {
+opacity: .5 !important;
+filter: alpha(opacity=50);
+}
+.profile_modal .modal-dialog {
+width: 600px;
+margin: 30px auto;
+}
+.profile_modal .modal-dialog  .modal-body{
+  max-height: 300px; overflow-y: scroll;
+}
+.profile_modal .modal-dialog{
+  transition: none !important;
+  transform: none !important;
+}
+.fade.in.modal{
+  opacity: 1;
+}

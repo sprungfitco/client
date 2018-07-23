@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,500');
+
+.team__admin__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Rubik', sans-serif;
+}
+
+.team__admin__form {
+  height: 100%;
+  width: 40%;
+}
+
+.team__admin__title {
+  width: 100%;
+  border-top: 0px solid transparent;
+  border-left: 0px solid transparent;
+  border-right: 0px solid transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 48px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.team__admin__options__wrapper {
+  padding: 24px 0px 24px 0px;
+  display: flex;
+  border-bottom: 1px solid lightgrey;
+}
+
+.team__admin__nav {
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+}
+
+.team__admin__nav__option__active {
+  color: $header-bg--color !important;
+}
+
+.team__admin__nav__option {
+  cursor: pointer;
+  color: lightgrey;
+}
+
+.new_invite_email {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  width: 50%;
+}
+
+.new_invite_name {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.new_invite_optional {
+  font-family: 'Rubik', sans-serif;
+  font-size: 14px;
+  color: lightgray;
+  font-weight: lighter;
+}
+
+.new_invite_input {
+  width: 100%;
+  border-radius:3px;
+  border: solid 1px lightgray;
+  padding: 16px;
+}
+
+.row_45 {
+  width: 45%;
+}
+.row_90 {
+  width: 90%;
+}
+
+.row_10 {
+  width: 10%;
+}
+
+.new_invite_add_row {
+  color: $header-bg--color;
+}
+
+.add_row_image {
+  width: 14px;
+  height: 14px;
+  margin-right: 10px;
+}
+
+.new_invite_remove_row {
+  margin-top: 20px;
+}
+
+::placeholder {
+  color: lightgray;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: lightgray;
+}
+
+::-ms-input-placeholder {
+  color: lightgray;
+}
+
+.team_member_name {
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+.delete_invitation {
+  color: red;
+  cursor: pointer;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+.team_member_email {
+  font-weight: lighter;
+  font-size: 14px;
+  color: $header-bg--color;
+}
+
+.team_member_action {
+  font-weight: lighter;
+  font-size: 14px;
+  color: red;
+  text-decoration: underline;
+  cursor: pointer;
+}

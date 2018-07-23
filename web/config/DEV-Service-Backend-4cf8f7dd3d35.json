@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "dev-service-backend",
+  "private_key_id": "4cf8f7dd3d350dce57ecc0c673e59744d4947620",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDUyLhrOJMaKUPt\nOSH4tL/c/4oobLrkP4V10Liom+eCDHQLUyuqhRYTJp88QEadSjmc3tX0+TKyKTrS\nESIjcEhdsc6OSan+TiPLEjcUiGMbi1Mg36EhrwQ5ReqF0N6b1xom3uxhbflhpWWg\neYYXfC5UcE3FNum89QLDC3UnO5oLb0DGQ5gmD4gSmzYGNev5OUv/hjSDOXz3Wuh7\nCE7sZHgpJs3d9KkcSIhAOkpPXfaURwAWYlbs+xVN6Hbu3iq5NcelEeJUEa3LKXyD\nbCCAt2oVW4Aq+2itYHhjOoUDe9qgpqWchEFb/HWRnwXo6KtiBZR2pGf9Ll0RBnmN\nHMw/KJa7AgMBAAECggEADTNO9/cTofKM0FYt7KTV9ESPUlB9TA5B95wIhwx1xJEe\nNkE+7iS0e/qps6fiWZasIINVSNqYa3B4W2WmgjlQgmBQY25f3+Y1sHIdJAzaZrzy\nRF6E1TcE1Y+OhYx+iuXbLWDBNfTuUCfEUe8udoPrLqzXsXp/IXK3uaVOOGFcfjhk\nuyoDhZklBoXMguZWnLLCohgCaxNl3sUMwdK3FkynLZeCAKL36I6R0oa1VNRIh4Zw\nDwR5zZOaUBsY2hb81lSmRFzdzAnH9BaCTXi+5CTXlrpAMpySD90+9Sw9R85oQM4F\nnajf5IZMWACF7XcRvfGGWvFc1LI8sRiwudTNmO/ufQKBgQD6ScXaLa5lwY6uiqfh\n7y1P4MdShRFo0K9b+ELU6L7I1E5Cb1zO5EzJLn6YXa+qXjFT2twBT215GRT0lUGn\nxVZ05kn13quCF9MOTd2G9+6uHOf3K+JoQZYbaZ3vbXwdY5lx9UvsY1zSw4P1gkfw\nppDlQUABOfJ8z8dptNBdIIE3LwKBgQDZo9eLdVSyYmaZgoQG436eTdDwzAdKHv5K\nX45uaKKwavxMB2m4iWSq5TIPk//ahQu7Q+jcrHtjd6N5qV4d9e0GVEWwEVxF49R2\nop+SRMqj20U9uSal4vv1v2zXHitoliZUgolqfJTgiWfknxu9KxCTP1vKEyoofk/K\nXfq6VG/2NQKBgA6811Sgiftd6VvnuDj6j217q+D1CvBkEV9WAAFvbwR+U9lfm1Rn\nZwoVnci1A4oBn9/zLC87kROnYW+Bdms9mHirssEyimDPrFLUTO4MnVZNR29rexpu\nejtE/dLCXKOSYM+wBPd3ZljWwGdtc3T9Kd0F+ZHY6qlkxrY3umkxZ8prAoGBALrK\n3FxdP2w6+EQYuKgQ6MOFliaVdkwvfaDnkp9APyGbMR8v3ZT8luH2BJlKNPWf6wm2\np01+3AfqzuvEaXrdb6lW+ti6ja+OcvO/b6ViVWl88FihaIJH5mhs+0VGJ4uEEzHF\nN5ulgUGVrQ2TYYNiSr+WSXmOKUjH4EOXlXIGtnFhAoGAZXFnT/kpf7N32LyyvGt4\n5V6JFDUmLpqNmzrCn50mJEe4NlEzJ3AvE4uqeSeT4bqUOxtKzQLWwGIveEfoJgWZ\nnNHDP5UBhQ0bl8ekqFQzRr1ywb4fILGw7LOIyLX1c4kfAZyjfpVJVR+gfE7FN3Oa\nv3OnBGA054FMVrFHIYlg7eM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "sprung-profile-pictures@dev-service-backend.iam.gserviceaccount.com",
+  "client_id": "115942164717380820962",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sprung-profile-pictures%40dev-service-backend.iam.gserviceaccount.com"
+}

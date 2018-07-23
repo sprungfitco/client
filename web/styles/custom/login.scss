@@ -1,0 +1,187 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.header__login__content{
+  z-index: 9;
+  position: absolute;
+  background-color: $header-bg--color !important;
+  width: 100%;
+}
+
+.login__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+  margin-top: -15%;
+  z-index: 2;
+}
+
+.login__logo {
+  text-align: center;
+
+  > img {
+    height: 40px;
+  }
+}
+
+.login__product__name {
+  font-size: 1.25em;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  display: flex;
+  margin-bottom: 4%;
+}
+
+.login__product__tag {
+  font-size: 12px;
+  padding: 15px;
+  color: $white;
+  text-align: center;
+  display: flex;
+}
+
+.login-banner-text {
+  font-family: Courier;
+}
+
+.login__modal__wrap {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-color: $white1;
+}
+
+.login__card__wrap {
+  position: relative;
+  width: 360px;
+  height: 350px;
+  perspective: 800px;
+}
+
+.login__card {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+}
+
+.login--leave .login__card {
+  animation: fade-down 0.25s ease-out;
+  animation-fill-mode: forwards;
+}
+
+.login__card--flipped {
+  transform: rotateY(180deg);
+}
+
+.login-form__bg {
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+}
+
+.login-form-allflash__bg {
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+}
+
+.animate--fade-up {
+  animation: fade-up 0.25s ease-out;
+}
+
+.login__version__block {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 45%;
+  top: 38%;
+}
+
+.login__version__tooltip__row {
+  display: flex;
+  flex-direction: row;
+  margin: 0 8px;
+  padding: 2px 0;
+}
+
+.login__version__text {
+  border-bottom: 1px dotted white;
+  color: white;
+}
+
+.login__version__tooltip__row__label {
+  text-align: left;
+  flex: 1;
+}
+
+.login__version__tooltip__row__value {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: right;
+  text-overflow: ellipsis;
+}
+
+.login__version__tooltip__panel {
+  position: absolute;
+  top: 100%;
+  margin-top: 10px;
+  display: inline-block;
+  flex-direction: row;
+  justify-content: center;
+  overflow: visible;
+  margin-left: 50%;
+}
+
+.login__version__tooltip__panel__text {
+  display: inline-block;
+  padding: 4px 6px;
+  width: 200px;
+  font-size: 10px;
+  white-space: nowrap;
+  color: $white1;
+  background-color: $gray9;
+  border-radius: 3px;
+}
+
+.login__version__tooltip__panel:before {
+  content: "";
+  position: absolute;
+  top: -14px;
+  left: 8px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 7px;
+  border-bottom: 7px solid $gray9;
+  box-sizing: border-box;
+}
+
+a.btn + div.login__version__tooltip__panel {
+  margin-top: 10px;
+}
+
+.email_validated {
+  border: none;
+  display: block;
+  text-align: center;
+  color: $green;
+  font-size: 0.6em;
+  font-weight: bold;
+  text-transform: capitalize;
+}

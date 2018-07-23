@@ -1,0 +1,191 @@
+.button {
+  display: inline-block;
+  min-width: 100px;
+  padding: 6px 12px;
+  color: #222;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #c7c7c7;
+  border-radius: 2px;
+  transition: background-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+  vertical-align: top;
+
+  > i {
+    margin-right: 6px;
+
+    &.ion-chevron-right {
+      margin-right: 0;
+      margin-left: 6px;
+    }
+  }
+
+  &:hover {
+    background-color: #fafafa;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}
+
+.button--block {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  color: grey;
+}
+
+.button--disabled {
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.button--info {
+  background-color: #2f87c0;
+  border-color: #1A699C;
+  color: #fff;
+
+  &:hover {
+    background-color: #1A699C;
+    color: #fff;
+  }
+
+  &:active {
+    background-color: #0C4C75;
+  }
+}
+
+.button--external {
+  background-color: #49afcd;
+  border-color: #2f96b4;
+  color: #fff;
+
+  &:hover {
+    background-color: #2f96b4;
+  }
+
+  &:active {
+    background-color: #49afcd;
+  }
+}
+
+.button--danger {
+  color: #fff;
+  background-color: #e46664;
+  border-color: #C14F4D;
+
+  &:hover {
+    color: #fff;
+    background-color: #D05A58;
+  }
+
+  &:active {
+    background-color: #C14F4D;
+  }
+}
+
+.button--green {
+  background-color: #96bd2c;
+  border: 1px solid #8cad35;
+  color: #fff;
+
+  &:hover {
+    background-color: #8cad35;
+  }
+
+  &:active {
+    background-color: #97b93b;
+  }
+}
+
+.button--red {
+  background-color: #fff;
+  border-color: #D6665C;
+  color: #e17d74;
+
+  &:hover {
+    background-color: #e17d74;
+    color: #fff;
+  }
+
+  &:active {
+    background-color: #D6665C;
+    color: #fff;
+  }
+}
+
+.btn-primary {
+    color: #fff !important;
+    background-color: $blue !important;
+    border-color: $blue !important;
+    &:hover {
+      color: #fff !important;
+    }
+}
+.button--clear {
+  background-color: inherit;
+  border: none;
+  &:hover {
+    background-color: inherit;
+  }
+
+  &:active {
+    background-color: inherit;
+  }
+}
+
+button.close {
+  font-size: 14px;
+  font-weight: normal;
+  text-shadow: none;
+}
+
+.btn-info {
+  background-color: $blue;
+  color: $white;
+  border-color: $blue;
+  &:hover {
+    background-color: $blue;
+  }
+
+  &:active {
+    background-color: $blue;
+  }
+}
+
+.button--company {
+  background-color: $header-bg--color;
+  color: $white1;
+  // &:hover {
+  //   background-color: $header-bg--color;
+  //   color: $login-bg-black;
+  // }
+
+  // &:active {
+  //   background-color: $header-bg--color;
+  // }
+}
+
+.purchase_button {
+  padding: 2%;
+  width: 40%;
+}
+
+.btn-danger {
+  background-color: $red;
+  color: $white;
+  border-color: $white;
+  &:hover {
+    background-color: $red;
+  }
+
+  &:active {
+    background-color: $red;
+  }
+}

@@ -1,0 +1,51 @@
+.login-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.login-bg__shard__parent {
+  background-color: $blue;
+  width: 100%;
+  height: 50%;
+}
+
+.login-bg__bottom-shard__parent {
+  background-color: $white1;
+  width: 100%;
+  height: 50%;
+}
+
+.login-bg__shard {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: $white1;
+  width: 100%;
+  height: 50%;
+  transform: rotate(-8deg) scaleX(1.2) scaleY(1.4);
+  transform-origin: bottom center;
+}
+
+.login-bg__bottom-shard {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: $white1;
+  width: 100%;
+  height: 50%;
+  transform: rotate(-8deg) scaleX(1.2) scaleY(1.4);
+  transform-origin: top center;
+}
+
+.login-bg__dots {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
